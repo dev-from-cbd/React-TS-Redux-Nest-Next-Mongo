@@ -8,7 +8,7 @@ import { TrackModule } from "./track/track.module";
 @Module({
   imports: [
     //        ServeStaticModule.forRoot({rootPath: path.resolve(__dirname, 'static')}),
-    //        MongooseModule.forRoot('mongodb+srv://admin:admin@cluster0.oeudk.mongodb.net/music-platform?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('mongodb+srv://admin:admin@cluster0.q4ykt.mongodb.net/music-platform?retryWrites=true&w=majority'),
     TrackModule//,
     //        FileModule
   ]
