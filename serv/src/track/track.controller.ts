@@ -14,10 +14,10 @@ export class TrackController {
 
     }
 
-    @Get()
-    getAll() {
-        return 'WORK'
-    }
+    //@Get()
+    //getAll() {
+    //    return 'WORK'
+    //}
 
     getOne() {
 
