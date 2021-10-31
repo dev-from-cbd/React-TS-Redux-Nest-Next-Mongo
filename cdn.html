@@ -16,10 +16,26 @@
 
     <script type="text/babel">
       function Hello() {
-        return <h1>Hello World!</h1>;
+        return <h1>Hello World</h1>;
       }
 
       ReactDOM.render(<Hello />, document.getElementById("mydiv"));
+    </script>
+
+    <div id="reactDiv"></div>
+    <script type="text/babel">
+      function Header() {
+        return <h2>h2</h2>;
+      }
+      ReactDOM.render(<Header />, document.getElementById("reactDiv"));
+    </script>
+
+    <div id="testDiv"></div>
+    <script type="text/babel">
+      function Test() {
+        return <h3>Test</h3>;
+      }
+      ReactDOM.render(<Test />, document.getElementById("testDiv"));
     </script>
   </body>
 </html>
