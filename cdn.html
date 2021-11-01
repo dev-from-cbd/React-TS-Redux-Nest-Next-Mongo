@@ -25,7 +25,7 @@
     <div id="reactDiv"></div>
     <script type="text/babel">
       function Header() {
-        return <h2>h2</h2>;
+        return <h2>Header h2</h2>;
       }
       ReactDOM.render(<Header />, document.getElementById("reactDiv"));
     </script>
@@ -36,6 +36,14 @@
         return <h3>Test</h3>;
       }
       ReactDOM.render(<Test />, document.getElementById("testDiv"));
+    </script>
+
+    <div id="reactDivFooter"></div>
+    <script type="text/babel">
+      function Footer() {
+        return <h3>Footer h3</h3>;
+      }
+      ReactDOM.render(<Footer />, document.getElementById("reactDivFooter"));
     </script>
   </body>
 </html>
